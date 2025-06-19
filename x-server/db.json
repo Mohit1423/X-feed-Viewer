@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "username": "mohit@gmail.com",
+      "email": "mohit",
+      "password": "mohit",
+      "cookies": "",
+      "public": false,
+      "friends": [],
+      "addedBy": []
+    },
+    {
+      "username": "mohit",
+      "email": "mohit@gmail.com",
+      "password": "mohit",
+      "cookies": "guest_id=v1%3A174981017848144179; guest_id_marketing=v1%3A174981017848144179; guest_id_ads=v1%3A174981017848144179; kdt=ZDJtwj8WEOEayO1n1WHytdBmV87wWZKDg6r87xcW; auth_token=e2a7ffb3df3354034ea3143ba5ed903739af7de5; ct0=61ad5be069de13994ba1350e8d7fab41a49cbb0caae3b5251461bea1cfc482ca7dfda9fde4ff114dc9f1800debd7f8ac19a4ad8024cdf5ff233b3b1a986f2d52715d894683f99ca2a2c913c9f1937c29; twid=u%3D1920614658085437442; __cf_bm=RujpfjfhjxgIRNhELWJDZGLwLYpUC.L04mTHVNMovAw-1750310114-1.0.1.1-.5ZIzWGnAs1JdO7MNPyy2e3GdOufY.ix4cIj9BiZIlQBdbK3XDzaTH_tlhdXL7XufTgxjCw3C1MYX_4R2fX3wUfJV91sHA0gLG1fEsygybg; personalization_id=\"v1_ux8cQMGlpXHdA6TBYmwW0A==\"",
+      "public": false,
+      "friends": [],
+      "addedBy": [
+        "mohit@gmail.com"
+      ]
+    }
+  ]
+}
