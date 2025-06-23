@@ -50,4 +50,15 @@ A lightweight web platform built using **Twikit** that allows users to view publ
 2. **Start the Backend**
 
    cd x-server
+   npm i 
    nodemon index.js/node index.js
+
+3. **Add the Chrome Extension**
+
+  Visit chrome://extensions/
+
+  Enable Developer Mode
+
+  Click Load Unpacked
+
+  Select the X-feed folder
