@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Inter', sans-serif;
+      background: #f5f7fa;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .login-card {
+      background: #ffffffcc;
+      backdrop-filter: blur(12px);
+      border-radius: 16px;
+      padding: 2rem;
+      width: 100%;
+      max-width: 360px;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    .login-card h2 {
+      margin-bottom: 1.5rem;
+      color: #2d3748;
+      font-weight: 600;
+    }
+
+    input[type="email"],
+    input[type="password"] {
+      width: 100%;
+      padding: 0.75rem 1rem;
+      margin-bottom: 1rem;
+      border: 1px solid #e2e8f0;
+      border-radius: 10px;
+      font-size: 1rem;
+      background: #fff;
+      transition: border 0.3s ease;
+    }
+
+    input[type="email"]:focus,
+    input[type="password"]:focus {
+      outline: none;
+      border-color: #667eea;
+    }
+
+    button#loginBtn {
+      background: linear-gradient(to right, #667eea, #764ba2);
+      color: white;
+      border: none;
+      padding: 0.75rem;
+      width: 100%;
+      border-radius: 10px;
+      font-size: 1rem;
+      cursor: pointer;
+      font-weight: 500;
+      transition: background 0.3s ease;
+      margin-bottom: 1rem;
+    }
+
+    button#loginBtn:hover {
+      background: linear-gradient(to right, #5a67d8, #6b46c1);
+    }
+
+    p {
+      margin-top: 1rem;
+      font-size: 0.9rem;
+      color: #4a5568;
+    }
+
+    #goToSignup {
+      color: #667eea;
+      font-weight: 500;
+      text-decoration: none;
+    }
+
+    #goToSignup:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="login-card">
+    <h2>Login</h2>
+    <input type="email" id="email" placeholder="Email" />
+    <input type="password" id="password" placeholder="Password" />
+    <button id="loginBtn">Login</button>
+    <div style="background-color: #e3f2fd; color: #0d47a1; padding: 12px 16px; border-left: 5px solid #1976d2; font-family: Arial, sans-serif; font-size: 14px; border-radius: 4px; max-width: 400px;">
+         While logging ensure that you are logged into your X.com account.
+    </div>
+
+    <p>No account? <a href="#" id="goToSignup">Sign Up</a></p>
+
+  </div>
+</body>
+</html>

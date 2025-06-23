@@ -1,0 +1,30 @@
+{
+  "users": [
+    {
+      "username": "mohit",
+      "email": "mohit@gmail.com",
+      "password": "mohit",
+      "cookies": "gt=1936743827613597823; kdt=QLRuLR8HsiwpSlZuSlyiAf8vO3lG5K0h735vzDDH; dnt=1; __cf_bm=WAt8p40.K391FrvjbeCzfDJOj0Ol_scxhVwEhh8etHA-1750592309-1.0.1.1-OtdjeYnU5v2qunPPmY1L.iKRFzcchRx2lHRfGNXAxZsIbf5U7RKxYs9lgIaHe.lqyUDGxFBI4YlMrKB.kFPUtR.ZeS2XAaYhXXhYwvtC9fU; guest_id=v1%3A175059251213292675; guest_id_marketing=v1%3A175059251213292675; guest_id_ads=v1%3A175059251213292675; personalization_id=\"v1_l+1SLkFpoY44kVJuHJygiA==\"; auth_token=9a7553723382e6534fe8cc45adf6d1263597ee97; ct0=5f8d5e55f846e74eef4061443532e3f8e0f363006859b3eeea9d0334cb526b0c82993ec3ed7b9301819fe6426d6dd6371d937488d7f88c8e95bde40a3897025bc4aa736b4017cf28e41739e5652fcdd4; twid=u%3D1933112926430498816; att=1-Y4bJI6GhDECJf5kADsMZfhyCYf6rcDeP9yKyT6r4",
+      "public": false,
+      "friends": [
+        "shadow@gmail.com"
+      ],
+      "addedBy": [
+        "shadow@gmail.com"
+      ]
+    },
+    {
+      "username": "shadow",
+      "email": "shadow@gmail.com",
+      "password": "shadow",
+      "cookies": "gt=1936743827613597823; kdt=QLRuLR8HsiwpSlZuSlyiAf8vO3lG5K0h735vzDDH; dnt=1; guest_id=v1%3A175059117703449426; guest_id_marketing=v1%3A175059117703449426; guest_id_ads=v1%3A175059117703449426; auth_token=f42f56a8fe2faff50ef8e2e639fa72a0ff8941ec; ct0=7e048c5efc96f4ce14dd7bcfff77acdb5037bc67d217d2b9c8a032c558f05a3453c74ed0c2d1c9b84d11f29cff9624785189d5c5a522c3a585fd4b71815b137c84142abb16246bc8b0c16f3bcc735a35; twid=u%3D1887884630352920576; att=1-NhRciGKCnC3rCo8j6RpwaMzELvJA7KbEfx18IeDJ; personalization_id=\"v1_IvUkQY6vSvHSwXQzRYhZDQ==\"; __cf_bm=jvPgiaGEEaUgiI3VZV8OF0AcfegxkIPpdrMljLLm6Mc-1750591750-1.0.1.1-wZNahCd10MgJL_6r72pbXKMI9_ZTDag8daADHIqinpBbSxayz1BRGr4cYGwusHWTF_hCU.ilQXNrIDcQDaPWP0aRp6XzMegsuRXY1Bo83qI",
+      "public": true,
+      "friends": [
+        "mohit@gmail.com"
+      ],
+      "addedBy": [
+        "mohit@gmail.com"
+      ]
+    }
+  ]
+}

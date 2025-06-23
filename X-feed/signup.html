@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sign Up</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Inter', sans-serif;
+      background: #f5f7fa;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .signup-form {
+      background: #ffffffcc;
+      backdrop-filter: blur(12px);
+      border-radius: 16px;
+      padding: 2rem;
+      width: 100%;
+      max-width: 360px;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    .signup-form h2 {
+      margin-bottom: 1.5rem;
+      color: #2d3748;
+      font-weight: 600;
+    }
+
+    .signup-form input {
+      width: 100%;
+      padding: 0.75rem 1rem;
+      margin-bottom: 1rem;
+      border: 1px solid #e2e8f0;
+      border-radius: 10px;
+      font-size: 1rem;
+      background: #fff;
+      transition: border 0.3s ease;
+    }
+
+    .signup-form input:focus {
+      outline: none;
+      border-color: #667eea;
+    }
+
+    #signupBtn {
+      background: linear-gradient(to right, #667eea, #764ba2);
+      color: white;
+      border: none;
+      padding: 0.75rem;
+      width: 100%;
+      border-radius: 10px;
+      font-size: 1rem;
+      cursor: pointer;
+      font-weight: 500;
+      transition: background 0.3s ease;
+    }
+
+    #signupBtn:hover {
+      background: linear-gradient(to right, #5a67d8, #6b46c1);
+    }
+
+    #signupError {
+      margin-top: 0.5rem;
+      font-size: 0.9rem;
+      color: red;
+    }
+
+    p {
+      margin-top: 1rem;
+      font-size: 0.9rem;
+      color: #4a5568;
+    }
+
+    #goToLogin {
+      color: #667eea;
+      font-weight: 500;
+      text-decoration: none;
+    }
+
+    #goToLogin:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="signup-form">
+    <h2>Sign Up</h2>
+    <input type="text" id="username" placeholder="Username" />
+    <input type="email" id="email" placeholder="Email" />
+    <input type="password" id="password" placeholder="Password" />
+    <button id="signupBtn">Sign Up</button>
+    <p id="signupError"></p>
+    <p>Already have an account? <a href="#" id="goToLogin">Login</a></p>
+  </div>
+</body>
+</html>
